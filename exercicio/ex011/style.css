@@ -1,0 +1,30 @@
+<Style>
+        
+        h1 {
+            background-color: black;
+            color: white;
+            text-decoration: underline;
+        }
+
+        h2 {
+            color: red;
+        }
+
+        p {
+            color: blue;
+        }
+
+        ol {
+            color: rgb(4, 212, 188);
+        }
+
+        body{
+            background-image: radial-gradient(circle, red, yellow,green );
+        }
+
+
+
+
+
+    </Style>
+

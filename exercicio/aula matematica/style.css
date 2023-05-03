@@ -1,0 +1,59 @@
+/* Definição de estilos para os elementos de cabeçalho */
+h1 {
+	font-size: 2.5em;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+h2 {
+	font-size: 1.8em;
+	margin-top: 30px;
+	margin-bottom: 15px;
+}
+
+h3 {
+	font-size: 1.5em;
+	margin-top: 25px;
+	margin-bottom: 10px;
+}
+
+/* Definição de estilo para os parágrafos */
+p {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	margin-bottom: 20px;
+}
+
+/* Definição de estilo para a lista não ordenada */
+ul {
+	font-size: 1.2em;
+	line-height: 1.5em;
+	margin-bottom: 20px;
+	margin-left: 30px;
+}
+
+/* Definição de estilo para os itens da lista */
+li {
+	margin-bottom: 10px;
+}
+
+/* Definição de estilo para os exemplos */
+.example {
+	border: 1px solid #ccc;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+/* Definição de estilo para os exemplos de prismas */
+.prism {
+	background-color: #f0f0f0;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+/* Definição de estilo para os exemplos de pirâmides */
+.pyramid {
+	background-color: #e0e0e0;
+	padding: 10px;
+	margin-bottom: 20px;
+}

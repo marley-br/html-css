@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens Flexíveis</title>
+</head>
+<body>
+    <h1>Vamos aprender como usar as imagens Flexíveis.</h1>
+<p>Utilize outros dispositivos(celulares,tablets,tvs,etc...) para testar seu codigo ou diminua/aumente o tamanho da tela</p>
+    
+    <picture>
+        <source media="(max-width: 750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="a imagem flexivel funciona !">
+    </picture>
+    <h1>Também podemos inserir arquivos de audio</h1>
+    <audio preload="metadata" controls loop>
+        <source src="midia/happy-mistake.mp3" type="audio/mpeg">
+    </audio>
+    <p>Seu navegador nao suporta <a href="midia/happy-mistake.mp3" download="happy-mistake.mp3" type="audio/mp3">audio</a></p>
+    <h1>Também podemos adicionar videos</h1>
+    <video width="600" poster="thumb.png" controls>
+        <source src="videos/meu-video.webm" type="video/webm">
+        <source src="videos/meu-video.mp4" type="video/mp4">
+        <source src="videos/meu-video.ogv" type="video/ogg">
+        <p>infelizmente seu navegador nao conseguiu abrir o video</p>
+    </video>
+    
+    <h1>Podemos inserir videos de uma fonte externa como <strong>Youtube</strong> por exemplo</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Jszz7M676y8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+
+
+
+    
+    
+</body>
+</html>
