@@ -1,5 +1,9 @@
 /* General styles */
 
+* {
+  line-height: 1.3em;
+}
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -67,6 +71,12 @@ body {
   
   .main-section li {
     margin-bottom: 5px;
+  }
+
+  h2 {
+    background-image: linear-gradient(to left, black, gray);
+    color: white;
+    padding: 10px;
   }
   
   /* Media query for small screens */
