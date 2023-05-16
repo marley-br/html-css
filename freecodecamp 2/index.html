@@ -12,9 +12,11 @@
 	<body>
 
 		<nav id="navbar">
+
 			<header>
 				<h1>Technical Documentation</h1>
 			</header>
+
 			<ul>
 				<li><a class="nav-link" href="#JavaScript_and_Java">JavaScript and Java</a></li>
 				<li><a class="nav-link" href="#Python_and_Ruby">Python and Ruby</a></li>
@@ -22,6 +24,7 @@
 				<li><a class="nav-link" href="#PHP_and_SQL">PHP and SQL</a></li>
 				<li><a class="nav-link" href="#C_and_C++">C and C++</a></li>
 			</ul>
+
 		</nav>
 
 		<main id="main-doc">
@@ -31,21 +34,19 @@
 				<header>
 					<h2>JavaScript and Java</h2>
 				</header>
-
-				<p>
-					<ol>
-						<li>JavaScript is a high-level programming language that is used primarily for client-side scripting in web development, while Java is a general-purpose programming language that is used for a variety of applications.</li>
-						<li>JavaScript was created in 1995 by Brendan Eich while he was working at Netscape Communications Corporation, while Java was developed by James Gosling at Sun Microsystems in 1991.</li>
-						<li>JavaScript is an interpreted language, which means that the code is executed as soon as it is encountered, while Java is a compiled language, which means that the code is first translated into bytecode and then executed by the Java Virtual Machine (JVM).</li>
-						<li>JavaScript is widely used for creating interactive user interfaces and adding dynamic behavior to web pages, while Java is used for developing enterprise-level applications such as banking systems, e-commerce sites, and mobile applications.</li>
-						<li>JavaScript is often used in conjunction with HTML and CSS to create web pages, while Java can be used in combination with other technologies such as Spring, Hibernate, and Struts for building complex applications.</li>
-						<li>JavaScript is a lightweight language that can be easily integrated into web pages, while Java is a more complex language that requires a dedicated development environment and specialized tools.</li>
-						<li>JavaScript is widely supported by all major web browsers, while Java requires a separate plugin to run in a web browser.</li>
-						<li>JavaScript is a popular choice for creating single-page applications (SPAs) and mobile applications using frameworks such as React, Angular, and Vue, while Java is often used in the development of server-side applications using frameworks such as Spring Boot and JavaServer Faces.</li>
-						<li>JavaScript has a large and active developer community that has contributed to the development of numerous libraries and frameworks, while Java has a rich ecosystem of libraries, tools, and frameworks that support a wide range of development scenarios.</li>
-						<li>Both JavaScript and Java are popular choices for building web and mobile applications, and developers often choose one or the other based on the specific requirements of the project and their personal preferences.</li>
-					</ol>
-				</p>
+				
+				<ol>
+					<li>JavaScript is a high-level programming language that is used primarily for client-side scripting in web development, while Java is a general-purpose programming language that is used for a variety of applications.</li>
+					<li>JavaScript was created in 1995 by Brendan Eich while he was working at Netscape Communications Corporation, while Java was developed by James Gosling at Sun Microsystems in 1991.</li>
+					<li>JavaScript is an interpreted language, which means that the code is executed as soon as it is encountered, while Java is a compiled language, which means that the code is first translated into bytecode and then executed by the Java Virtual Machine (JVM).</li>
+					<li>JavaScript is widely used for creating interactive user interfaces and adding dynamic behavior to web pages, while Java is used for developing enterprise-level applications such as banking systems, e-commerce sites, and mobile applications.</li>
+					<li>JavaScript is often used in conjunction with HTML and CSS to create web pages, while Java can be used in combination with other technologies such as Spring, Hibernate, and Struts for building complex applications.</li>
+					<li>JavaScript is a lightweight language that can be easily integrated into web pages, while Java is a more complex language that requires a dedicated development environment and specialized tools.</li>
+					<li>JavaScript is widely supported by all major web browsers, while Java requires a separate plugin to run in a web browser.</li>
+					<li>JavaScript is a popular choice for creating single-page applications (SPAs) and mobile applications using frameworks such as React, Angular, and Vue, while Java is often used in the development of server-side applications using frameworks such as Spring Boot and JavaServer Faces.</li>
+					<li>JavaScript has a large and active developer community that has contributed to the development of numerous libraries and frameworks, while Java has a rich ecosystem of libraries, tools, and frameworks that support a wide range of development scenarios.</li>
+					<li>Both JavaScript and Java are popular choices for building web and mobile applications, and developers often choose one or the other based on the specific requirements of the project and their personal preferences.</li>
+				</ol>
 
 				<h3>Syntax Examples</h3>
 
@@ -53,149 +54,629 @@
 
 				<h5>1-Conditional Statement (if-else):</h5>
 
-				<p>
+				<p class="description">
 					The if-else statement allows you to conditionally execute a block of code based on a specified condition. If the condition evaluates to true, the code inside the if block will be executed; otherwise, the code inside the else block will be executed.
-
-					<pre>
-						<code>
-							if (condition) {
-								// Code to execute if the condition is true
-								} else {
-								// Code to execute if the condition is false
-								}
-						</code>
-					</pre>
-					  
 				</p>
+
+				<pre>
+					<code>
+						if (condition) {
+							// Code to execute if the condition is true
+							} else {
+							// Code to execute if the condition is false
+							}
+					</code>
+				</pre>
 
 				<h5>2-Function Declaration:</h5>
 
-				<p>
+				<p class="description">
 					Functions in JavaScript are declared using the function keyword followed by the function name and a pair of parentheses containing optional parameters. The code inside the function is executed when the function is called, and the return statement specifies the value to be returned.
-
-					<pre>
-						<code>
-							function functionName(parameter1, parameter2) {
-								// Code to be executed
-								return result;
-							  }
-							  
-						</code>
-					</pre>
 				</p>
+
+				<pre>
+
+					<code>
+						function functionName(parameter1, parameter2) {
+							// Code to be executed
+							return result;
+							}
+							
+					</code>
+
+				</pre>
+				
 
 				<h4>Java:</h4>
 
 				<h5>1-Variable Declaration:</h5>
 
-				<p>
+				<p class="description">
 					In Java, variables are declared by specifying the variable's type followed by the variable name. This example declares an integer variable named age without assigning it a value.
-
-					<pre>
-						<code>
-							int age;
-
-						</code>
-					</pre>
 				</p>
+
+				<pre>
+
+					<code>
+						int age;
+					</code>
+
+				</pre>
+			
 
 				<h5>2-For Loop:</h5>
 
-				<p>
+				<p class="description">
 					The for loop is used for iterative execution of a block of code. It consists of an initialization statement, a condition to be checked before each iteration, and an increment statement. The code inside the loop is executed repeatedly as long as the condition is true.
-
-					<pre>
-						<code>
-							for (int i = 0; i < 5; i++) {
-								// Code to be executed in each iteration
-							  }
-							  
-						</code>
-					</pre>
 				</p>
-				
-  				
+
+				<pre>
+
+					<code>
+						for (int i = 0; i &lt; 5; i++) {
+							// Code to be executed in each iteration
+							}
+							
+					</code>
+
+				</pre> 				
 				
 			</section>
 
 			<section class="main-section" id="Python_and_Ruby">
+
 				<header>
 					<h2>Python and Ruby</h2>
 				</header>
 
 				<h4>Python :</h4>
 
-				<p>
-					<ol>
-						<li>Python is an interpreted, high-level programming language known for its simplicity and readability, designed by Guido van Rossum in the late 1980s.</li>
-						<li>Python emphasizes code readability with its use of indentation and a clean syntax, making it easier to understand and maintain.</li>
-						<li>Python has a large and active community that contributes to its extensive library collection, such as NumPy for scientific computing, Django for web development, and TensorFlow for machine learning.</li>
-						<li>Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming, allowing developers to choose the approach that suits their needs.</li>
-						<li>Python has gained popularity in various fields, including data science, machine learning, web development, automation, and scientific computing due to its vast ecosystem and versatility.</li>
-						<li>Python uses dynamic typing, which means variable types are inferred at runtime, allowing for flexibility but requiring careful attention to variable assignments and type handling.</li>
-						<li>Python uses a whitespace-based indentation structure to define code blocks, eliminating the need for curly brackets or keywords like "end" as in other programming languages.</li>
-						<li>Python offers an interactive shell, known as the Python REPL (Read-Eval-Print Loop), enabling developers to experiment, test snippets of code, and quickly evaluate expressions.</li>
-						<li>Python is platform-independent, allowing developers to write code once and run it on various operating systems, such as Windows, macOS, and Linux.</li>
-						<li>Python has a comprehensive standard library, providing a wide range of modules for tasks such as file manipulation, network programming, regular expressions, and more, reducing the need for external dependencies.</li>
-					</ol>
-				</p>
+				<ol>
+					<li>Python is an interpreted, high-level programming language known for its simplicity and readability, designed by Guido van Rossum in the late 1980s.</li>
+					<li>Python emphasizes code readability with its use of indentation and a clean syntax, making it easier to understand and maintain.</li>
+					<li>Python has a large and active community that contributes to its extensive library collection, such as NumPy for scientific computing, Django for web development, and TensorFlow for machine learning.</li>
+					<li>Python supports multiple programming paradigms, including procedural, object-oriented, and functional programming, allowing developers to choose the approach that suits their needs.</li>
+					<li>Python has gained popularity in various fields, including data science, machine learning, web development, automation, and scientific computing due to its vast ecosystem and versatility.</li>
+					<li>Python uses dynamic typing, which means variable types are inferred at runtime, allowing for flexibility but requiring careful attention to variable assignments and type handling.</li>
+					<li>Python uses a whitespace-based indentation structure to define code blocks, eliminating the need for curly brackets or keywords like "end" as in other programming languages.</li>
+					<li>Python offers an interactive shell, known as the Python REPL (Read-Eval-Print Loop), enabling developers to experiment, test snippets of code, and quickly evaluate expressions.</li>
+					<li>Python is platform-independent, allowing developers to write code once and run it on various operating systems, such as Windows, macOS, and Linux.</li>
+					<li>Python has a comprehensive standard library, providing a wide range of modules for tasks such as file manipulation, network programming, regular expressions, and more, reducing the need for external dependencies.</li>
+				</ol>
+				
 
 				<h4>Ruby :</h4>
 
-				<p>
-					<ol>
-						<li>Ruby is a dynamic, object-oriented programming language developed in the mid-1990s by Yukihiro Matsumoto with a focus on simplicity, productivity, and programmer happiness.</li>
+				<ol>
+					<li>Ruby is a dynamic, object-oriented programming language developed in the mid-1990s by Yukihiro Matsumoto with a focus on simplicity, productivity, and programmer happiness.</li>
 
-						<li>Ruby follows the principle of "Convention over Configuration," aiming to minimize the required configuration and favoring sensible defaults, making it easy to get started with Ruby development.</li>
+					<li>Ruby follows the principle of "Convention over Configuration," aiming to minimize the required configuration and favoring sensible defaults, making it easy to get started with Ruby development.</li>
 
-						<li>Ruby has a clear and expressive syntax, which enhances readability and helps developers write more human-friendly code.</li>
+					<li>Ruby has a clear and expressive syntax, which enhances readability and helps developers write more human-friendly code.</li>
 
-						<li>Ruby has a powerful and flexible metaprogramming feature, allowing developers to modify and extend the language itself, dynamically adding or modifying methods and classes.</li>
+					<li>Ruby has a powerful and flexible metaprogramming feature, allowing developers to modify and extend the language itself, dynamically adding or modifying methods and classes.</li>
 
-						<li>Ruby offers a comprehensive standard library, providing a wide range of built-in classes and modules for common programming tasks, such as file I/O, networking, and string manipulation.</li>
+					<li>Ruby offers a comprehensive standard library, providing a wide range of built-in classes and modules for common programming tasks, such as file I/O, networking, and string manipulation.</li>
 
-						<li>Ruby encourages the use of blocks and iterators, making it easier to write code that follows the principle of Don't Repeat Yourself (DRY) and promotes code reuse.</li>
+					<li>Ruby encourages the use of blocks and iterators, making it easier to write code that follows the principle of Don't Repeat Yourself (DRY) and promotes code reuse.</li>
 
-						<li>Ruby on Rails, a popular web framework built with Ruby, enables rapid development by following the Model-View-Controller (MVC) architectural pattern and providing many built-in features and conventions.</li>
+					<li>Ruby on Rails, a popular web framework built with Ruby, enables rapid development by following the Model-View-Controller (MVC) architectural pattern and providing many built-in features and conventions.</li>
 
-						<li>Ruby supports multiple programming paradigms, including procedural, object-oriented, and functional programming, allowing developers to choose the most appropriate approach for their projects.</li>
+					<li>Ruby supports multiple programming paradigms, including procedural, object-oriented, and functional programming, allowing developers to choose the most appropriate approach for their projects.</li>
 
-						<li>Ruby has a vibrant and welcoming community that promotes collaboration, sharing of code and ideas, and provides extensive documentation and gems (libraries) to extend Ruby's functionality.</li>
+					<li>Ruby has a vibrant and welcoming community that promotes collaboration, sharing of code and ideas, and provides extensive documentation and gems (libraries) to extend Ruby's functionality.</li>
 
-						<li>Ruby offers a garbage collection mechanism, freeing developers from managing memory manually and providing automatic memory management, improving productivity and reducing the chances of memory leaks.</li>
-						
-					</ol>
-				</p>
+					<li>Ruby offers a garbage collection mechanism, freeing developers from managing memory manually and providing automatic memory management, improving productivity and reducing the chances of memory leaks.</li>
+					
+				</ol>
+				
 
 				<h3>Syntax Examples</h3>
+				
+				<h4>Python</h4>
+
+				<h5>1 - Conditional Statement (if-else):</h5>
+
+				<p class="description">
+					The if-else statement in Python allows you to conditionally execute a block of code based on a specified condition. If the condition evaluates to true, the code inside the if block will be executed; otherwise, the code inside the else block will be executed.
+				</p>
+
+				<pre>
+					<code>
+						if condition:
+						# Code to execute if the condition is true
+						else:
+						# Code to execute if the condition is false
+
+					</code>
+				</pre>
+
+				<h5>2 - List Comprehension:</h5>
+
+				<p class="description">
+					List comprehension is a concise way to create new lists in Python. In this example, a new list squared_numbers is created by squaring each element in the numbers list using a for loop and an expression x**2. The resulting list will contain the squared values.
+				</p>
+
+				<pre>
+					<code>
+						numbers = [1, 2, 3, 4, 5]
+						squared_numbers = [x**2 for x in numbers]
+
+					</code>
+				</pre>
+
+				<h4>Ruby</h4>
+				<h5>1 - Conditional Statement (if-else):</h5>
+
+				<p class="description">
+					The if-else statement in Ruby allows you to conditionally execute a block of code based on a specified condition. If the condition evaluates to true, the code inside the if block will be executed; otherwise, the code inside the else block will be executed. The end keyword marks the end of the if-else statement.
+				</p>
+
+				<pre>
+
+					<code>
+						if condition
+  						# Code to execute if the condition is true
+						else
+  						# Code to execute if the condition is false
+						end
+
+					</code>
+
+				</pre>
+
+				<h5>2 - Array Creation:</h5>
+
+				<p class="description">
+					In Ruby, arrays are created by enclosing comma-separated values within square brackets. This example creates an array named numbers that contains the values 1, 2, 3, 4, and 5.
+				</p>
+
+				<pre>
+					<code>
+						numbers = [1, 2, 3, 4, 5]
+
+					</code>
+				</pre>
+				
 				
 			</section>
 
 			<section class="main-section" id="HTML_and_CSS">
+
 				<header>
 					<h2>HTML and CSS</h2>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum necessitatibus nesciunt iste, dolores natus sed impedit laudantium repudiandae voluptate dolor recusandae delectus quam molestiae possimus veritatis fugiat officia fuga.</p>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quae recusandae! Iure, voluptatum aut modi delectus repellendus ratione dolor laboriosam eum officia, corrupti eaque aperiam cupiditate aliquam neque tempora excepturi!</p>
 				</header>
+
+				<h4>HTML</h4>
+					
+				<ol>
+					<li>HTML (Hypertext Markup Language) is the standard markup language used for creating the structure and content of web pages.</li>
+
+					<li>HTML uses tags to define and organize the elements on a web page, such as headings, paragraphs, images, links, tables, and forms.</li>
+
+					<li>HTML tags are enclosed in angle brackets (&lt; &gt;) and can have attributes that provide additional information about the elements.</li>
+
+					<li>HTML provides semantic elements like &lt;header&gt;, &lt;nav&gt;, &lt;section&gt;, &lt;article&gt;, &lt;footer&gt;, etc., which give meaning to the content and aid in accessibility and search engine optimization.</li>
+
+					<li>HTML supports the use of hyperlinks (&lt;a&gt; tag) to create clickable links that allow navigation between different web pages or sections within a page.</li>
+
+					<li>HTML forms (&lt;form&gt; tag) provide a way to collect user input, such as text, checkboxes, radio buttons, and submit buttons, and send it to a server for processing.</li>
+
+					<li>HTML supports multimedia elements, such as &lt;img&gt; for images, &lt;audio&gt; for audio files, and &lt;video&gt; for video files, allowing the inclusion of rich media content on web pages.</li>
+
+					<li>HTML provides a range of meta tags, including the &lt;title&gt; tag for specifying the page title, &lt;meta charset&gt; for defining character encoding, and &lt;meta name="description"&gt; for providing a brief description of the page.</li>
+
+					<li>HTML5 introduced new elements and APIs for enhanced functionality, such as &lt;canvas&gt; for drawing graphics, &lt;audio&gt; and &lt;video&gt; for native multimedia playback, and &lt;localStorage&gt; for client-side storage.</li>
+
+					<li>HTML is the backbone of web development and is often used in conjunction with CSS and JavaScript to create interactive and visually appealing websites.</li>
+				</ol>
+
+				<h4>CSS</h4>
+
+				<ol>
+					<li>CSS (Cascading Style Sheets) is a style sheet language used to define the presentation and layout of HTML documents.</li>
+
+					<li>CSS provides a set of rules that define how HTML elements should be displayed, including properties for colors, fonts, margins, padding, positioning, and more.</li>
+
+					<li>CSS can be applied to HTML elements using selectors, such as element selectors (div, p, h1, etc.), class selectors (.classname), ID selectors (#idname), and attribute selectors ([attribute]).</li>
+
+					<li>CSS allows for the creation of reusable styles using classes and IDs, enabling consistent styling across multiple elements or specific targeting of individual elements.</li>
+
+					<li>CSS supports cascading and inheritance, where styles can be inherited from parent elements and overridden or modified at different levels of the document hierarchy.</li>
+
+					<li>CSS provides the box model concept, which defines how elements are rendered as boxes, including properties like width, height, padding, margin, and border.</li>
+
+					<li>CSS supports media queries, which allow the application of different styles based on specific device characteristics, such as screen size, resolution, or orientation, enabling responsive design.</li>
+
+					<li>CSS offers a wide range of selectors, including pseudo-classes (e.g., :hover, :active, :nth-child()) and pseudo-elements (e.g., ::before, ::after), to target specific states or parts of elements.</li>
+
+					<li>CSS preprocessors, such as Sass and Less, extend the capabilities of CSS by introducing features like variables, nesting, mixins, and functions, enhancing code maintainability and reusability.</li>
+
+					<li>CSS3 introduced numerous features, including gradients, transitions, animations, flexible box layout (Flexbox), grid layout (CSS Grid), and custom properties (CSS variables), allowing for more sophisticated and dynamic designs.</li>
+
+				</ol>
+
+				<h3>Syntax Examples</h3>
+				
+				<h4>HTML</h4>
+
+				<h5>1 - Example of an HTML tag with an attribute:</h5>
+
+				<p class="description">
+					In this example, the <img> tag is used to insert an image into a web page. The src attribute specifies the URL of the image, while the alt attribute provides a text description of the image that can be used by screen readers and search engines.
+				</p>
+
+				<code>
+
+					&lt;img src="example.jpg" alt="Example image"&gt;
+
+				</code>
+
+				<h5>2 - Example of an HTML form element:</h5>
+
+				<p class="description">
+					In this example, the &lt;form&gt; tag is used to create a form that can be used to collect user input. The action attribute specifies the URL to which the form data should be submitted, while the method attribute specifies the HTTP method to use (in this case, POST). The form contains a text input field (&lt;input&gt;) with an ID of "name" and a label that is associated with it using the for attribute. The required attribute indicates that the field is required, and the &lt;button&gt; tag creates a submit button for the form.
+				</p>
+
+				
+
+				<pre>
+					<code>
+						&lt;form action="/submit" method="post"&gt;
+							&lt;label for="name">Name:&lt;/label&gt;
+							&lt;input type="text" id="name" name="name" required&gt;
+							&lt;button type="submit">Submit&lt;/button&gt;
+						&lt;/form&gt;
+					
+					</code>
+				</pre>
+
+				<H4>CSS</H4>
+				
+				<H5>1 - Example of a CSS selector:</H5>
+
+				<P class="description">
+					In this example, the h1 selector is used to target all &LT;h1&GT; tags on a web page. The CSS rules inside the curly braces apply styles to those elements, setting the font size to 2em and the color to a dark gray.
+				</P>
+
+				<pre>
+					<code>
+
+						h1 {
+							font-size: 2em;
+							color: #333;
+						}
+						  
+					</code>
+				</pre>
+
+				<h5>2 - Example of a CSS class:</h5>
+
+				<p class="description">
+					In this example, the &lsquo;.btn&rsquo; class is defined to create a reusable style for buttons. The &lsquo;display&rsquo; property is set to &lsquo;inline-block&rsquo; to allow for text wrapping, the &lsquo;padding&rsquo; property sets the amount of space around the text inside the button, and the &lsquo;background-color&rsquo; and &lsquo;color&rsquo; properties set the button's background color and text color, respectively. The &lsquo;border-radius&rsquo; property adds rounded corners to the button for a more polished look. This class can be applied to any element that needs to look like a button by adding class=&ldquo;btn&rdquo; to the HTML tag.
+				</p>
+
+				<pre>
+					<code>
+						.btn {
+							display: inline-block;
+							padding: 8px 16px;
+							background-color: #007bff;
+							color: #fff;
+							border-radius: 4px;
+						}
+						  
+					</code>
+				</pre>
+				
 
 			</section>
 
 			<section class="main-section" id="PHP_and_SQL">
+				
 				<header>
+
 					<h2>PHP and SQL</h2>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum necessitatibus nesciunt iste, dolores natus sed impedit laudantium repudiandae voluptate dolor recusandae delectus quam molestiae possimus veritatis fugiat officia fuga.</p>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quae recusandae! Iure, voluptatum aut modi delectus repellendus ratione dolor laboriosam eum officia, corrupti eaque aperiam cupiditate aliquam neque tempora excepturi!</p>
+					
 				</header>
+
+				<h4>PHP</h4>
+
+				<ol>
+					<li>PHP (Hypertext Preprocessor) is a server-side scripting language designed for web development, widely used to create dynamic web pages and web applications.</li>
+
+					<li>PHP is embedded within HTML, allowing developers to mix PHP code with HTML markup seamlessly.</li>
+
+					<li>PHP supports a wide range of databases, including MySQL, PostgreSQL, SQLite, Oracle, and more, making it suitable for database-driven web applications.</li>
+
+					<li>PHP offers extensive built-in functions and libraries that provide a rich set of capabilities, such as string manipulation, file handling, regular expressions, encryption, and more.</li>
+
+					<li>PHP supports object-oriented programming (OOP), allowing developers to create classes, objects, and methods, facilitating code organization and reusability.</li>
+
+					<li>PHP offers various frameworks, such as Laravel, Symfony, and CodeIgniter, which provide pre-built components, tools, and abstractions to simplify web development and enhance productivity.</li>
+
+					<li>PHP has excellent integration with web servers such as Apache and Nginx, making it easy to deploy and configure PHP-based applications.</li>
+
+					<li>PHP provides support for handling form data, cookies, sessions, and user authentication, enabling developers to create interactive and secure web applications.</li>
+
+					<li>PHP supports different protocols, including HTTP, FTP, SMTP, and more, allowing developers to interact with remote servers and services.</li>
+
+					<li>PHP has an active and supportive community that regularly contributes to its development, offers comprehensive documentation, and shares libraries and frameworks to aid in PHP development.</li>
+				</ol>
+
+				<h4>SQL</h4>
+
+				<ol>
+					<li>SQL (Structured Query Language) is a programming language designed for managing and manipulating relational databases.</li>
+
+					<li>SQL allows users to define, create, modify, and query databases and their related structures, such as tables, indexes, views, and stored procedures.</li>
+
+					<li>SQL provides a set of commands, including SELECT, INSERT, UPDATE, DELETE, to perform various operations on the data stored in a database.</li>
+
+					<li>SQL offers powerful querying capabilities, including filtering, sorting, grouping, joining, and aggregating data, making it easy to retrieve and analyze information.</li>
+
+					<li>SQL supports data integrity constraints, such as primary keys, foreign keys, unique constraints, and check constraints, to ensure data consistency and enforce business rules.</li>
+
+					<li>SQL allows for the creation of complex queries using subqueries, derived tables, and common table expressions, providing flexibility in retrieving and manipulating data.</li>
+
+					<li>SQL provides functions for data manipulation and transformation, including mathematical, string, date/time, and aggregate functions, enabling data manipulation within queries.</li>
+
+					<li>SQL supports transactions, allowing multiple operations to be grouped together as a single unit, ensuring atomicity, consistency, isolation, and durability (ACID properties).</li>
+
+					<li>SQL supports the creation and management of indexes, which improve query performance by speeding up data retrieval and facilitating efficient data access.</li>
+
+					<li>SQL is a standard language that is supported by most relational database management systems (RDBMS), including MySQL, PostgreSQL, Oracle, Microsoft SQL Server, and SQLite, ensuring portability and compatibility across different database platforms.</li>
+
+				</ol>
+
+				<h3>Syntax Examples</h3>
+				
+				<h4>PHP</h4>
+
+				<h5>1 - Example of a PHP variable assignment and echo statement:</h5>
+
+				<p class="description">
+					In this example, a variable named &lsquo;$name&rsquo; is assigned the value &ldquo;John&rdquo; using the assignment operator &lsquo;=.&rsquo; The echo statement is then used to output the string &ldquo;Hello, John!&rdquo; to the browser. The &lsquo;. operator&rsquo; is used for concatenation to combine the variable value with the surrounding text.
+				</p>
+
+				<pre>
+					<code>
+						$name = "John";
+						echo "Hello, " . $name . "!";
+
+					</code>
+				</pre>
+
+				<h5>2 - Example of a PHP conditional statement (if-else):</h5>
+
+				<p class="description">
+
+					In this example, the value of the variable &lsquo;$age&rsquo; is evaluated using an &lsquo;if-else&rsquo; statement. If the condition &lsquo;$age >= 18&rsquo; is true, the message &ldquo;You are an adult.&rdquo; is displayed. Otherwise, the message &ldquo;You are a minor.&rdquo; is displayed.
+
+				</p>
+
+				<pre>
+					<code>
+						$age = 25;
+						if ($age >= 18) {
+							echo "You are an adult.";
+						} else {
+							echo "You are a minor.";
+						}
+
+					</code>
+				</pre>
+
+				<h4>SQL</h4>
+
+				<h5>1 - Example of a SQL SELECT statement:</h5>
+
+				<p class="description">
+
+					In this example, the SELECT statement is used to retrieve specific columns (column1 and column2) from a table named table_name. The WHERE clause specifies a condition that filters the rows based on a specific criteria, such as column1 = 'value'.
+
+				</p>
+
+				<pre>
+					<code>
+						SELECT column1, column2 FROM table_name WHERE condition;
+
+					</code>
+				</pre>
+
+				<h5>2 - Example of a SQL INSERT statement:</h5>
+
+				<p class="description">
+
+					In this example, the INSERT INTO statement is used to add a new row to a table named table_name. The column names (column1 and column2) are specified, followed by the VALUES keyword, which defines the corresponding values to be inserted into the columns.
+
+				</p>
+
+				<pre>
+					<code>
+						INSERT INTO table_name (column1, column2) VALUES ('value1', 'value2');
+
+					</code>
+				</pre>
 
 			</section>
 
 			<section class="main-section" id="C_and_C++">
 
 				<header>
+
 					<h2>C and C++</h2>
-					<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nostrum necessitatibus nesciunt iste, dolores natus sed impedit laudantium repudiandae voluptate dolor recusandae delectus quam molestiae possimus veritatis fugiat officia fuga.</p>
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, quae recusandae! Iure, voluptatum aut modi delectus repellendus ratione dolor laboriosam eum officia, corrupti eaque aperiam cupiditate aliquam neque tempora excepturi!</p>
+					
 				</header>
+
+				<h4>C</h4>
+
+				<ol>
+					<li>C is a procedural programming language developed in the early 1970s. It is widely used for system programming, embedded systems, and low-level programming.</li>
+
+					<li>C has a minimalistic syntax with a small set of keywords and a rich set of operators, providing a high degree of control over hardware and low-level memory management.</li>
+
+					<li>C supports a wide range of data types, including integers, floating-point numbers, characters, arrays, structures, and pointers, allowing for efficient manipulation of data.</li>
+
+					<li>C provides a set of control flow statements, including loops (for, while, do-while), conditional statements (if-else, switch), and jump statements (break, continue, goto), enabling structured and flexible program execution.</li>
+
+					<li>C allows for direct memory manipulation through pointers, which are variables that store memory addresses, providing fine-grained control over data and memory management.</li>
+
+					<li>C supports modular programming through functions, allowing code to be organized into reusable blocks, improving code readability, maintainability, and reusability.</li>
+
+					<li>C has a standard library that provides a wide range of functions for common tasks, such as string manipulation, mathematical operations, file handling, memory allocation, and input/output operations.</li>
+
+					<li>C offers preprocessor directives that allow code manipulation before compilation, enabling conditional compilation, macro definition, and inclusion of header files.</li>
+
+					<li>C is highly portable and widely available on different platforms, making it suitable for developing software that needs to run on multiple systems.</li>
+
+					<li>C is the foundation for many other programming languages and has influenced the development of modern programming concepts and paradigms.</li>
+
+				</ol>
+
+				<h4>C++</h4>
+
+				<ol>
+					<li>C++ is an extension of the C programming language, developed in the 1980s. It is an object-oriented programming language widely used for general-purpose programming, game development, and system software.</li>
+
+					<li>C++ combines procedural programming with object-oriented programming, providing features such as classes, objects, inheritance, polymorphism, and encapsulation, facilitating code organization and reuse.</li>
+
+					<li>C++ supports strong type checking and allows for the declaration and manipulation of various data types, including integers, floating-point numbers, characters, arrays, strings, structures, and classes.</li>
+
+					<li>C++ provides standard libraries, such as the Standard Template Library (STL), which offers reusable data structures (e.g., vectors, lists, queues), algorithms (e.g., sorting, searching), and iterators, enhancing productivity and code efficiency.</li>
+
+					<li>C++ supports operator overloading, allowing operators to be used with user-defined types, enabling intuitive and expressive syntax.</li>
+
+					<li>C++ provides exception handling mechanisms, such as try-catch blocks, to manage and handle runtime errors and exceptional conditions, ensuring robustness and reliability in programs.</li>
+
+					<li>C++ offers templates, which allow generic programming, enabling the creation of generic algorithms and data structures that work with different data types.</li>
+
+					<li>C++ supports namespaces, which provide a way to group related classes, functions, and variables, avoiding naming conflicts and improving code organization and modularity.</li>
+
+					<li>C++ offers features like function and operator overloading, allowing multiple functions or operators to have the same name but with different parameter lists or behaviors.</li>
+
+					<li>C++ has a rich ecosystem of development tools, libraries, and frameworks, making it a versatile language for a wide range of applications, including desktop software, game development, and high-performance computing.</li>
+
+				</ol>
+
+				<h3>Syntax Example</h3>
+
+				<h4>C</h4>
+
+				<h5>1 - Example of a C function definition and invocation:</h5>
+
+				<p class="description">
+
+					In this example, a function named add is defined to calculate the sum of two integers. The main function then invokes the add function with arguments 3 and 5, stores the returned value in the result variable, and prints it using the printf function.
+
+				</p>
+
+				<pre>
+					<code>
+						#include &lt;stdio.h&gt;
+
+							int add(int a, int b) {
+								return a + b;
+							}
+							
+							int main() {
+								int result = add(3, 5);
+								printf("The sum is: %d\n", result);
+								return 0;
+							}
+							
+					</code>
+				</pre>
+
+				<h5>2 - Example of a C conditional statement (if-else):</h5>
+
+				<p class="description">
+
+					In this example, the main function evaluates the value of the num variable using an if-else statement. If the value is greater than 0, it prints "The number is positive." If the value is less than 0, it prints "The number is negative." Otherwise, it prints "The number is zero."
+
+				</p>
+
+				<pre>
+					<code>
+						#include <stdio.h>
+
+							int main() {
+								int num = 10;
+								
+								if (num > 0) {
+									printf("The number is positive.\n");
+								} else if (num < 0) {
+									printf("The number is negative.\n");
+								} else {
+									printf("The number is zero.\n");
+								}
+								
+								return 0;
+							}
+							
+					</code>
+				</pre>
+
+				<h4>C++</h4>
+
+				<h5>1 - Example of a C++ class definition and object instantiation:</h5>
+
+				<p class="description">
+
+					In this example, a class named Rectangle is defined with two member variables (width and height) and a member function (calculateArea) to calculate the area. In the main function, an object of the Rectangle class is instantiated, and its member variables are assigned values. The calculateArea function is then invoked, and the result is printed using the std::cout object.
+
+				</p>
+
+				<pre>
+					<code>
+						#include <iostream>
+
+							class Rectangle {
+							public:
+								int width;
+								int height;
+							
+								int calculateArea() {
+									return width * height;
+								}
+							};
+							
+							int main() {
+								Rectangle rect;
+								rect.width = 5;
+								rect.height = 3;
+							
+								int area = rect.calculateArea();
+								std::cout << "The area is: " << area << std::endl;
+							
+								return 0;
+							}
+							
+					</code>
+				</pre>
+
+				<h5>2 - Example of a C++ loop (for loop):</h5>
+
+				<p class="description">
+
+					In this example, a for loop is used to iterate from 1 to 5. In each iteration, the current value of i is printed using the std::cout object. The loop continues until the condition i <= 5 is no longer satisfied.
+
+				</p>
+
+				<pre>
+					<code>
+						#include &lt;iostream&gt;
+
+							int main() {
+								for (int i = 1; i <= 5; i++) {
+									std::cout << "Current value: " << i << std::endl;
+								}
+							
+								return 0;
+							}
+							
+					</code>
+				</pre>
 
 			</section>
 
