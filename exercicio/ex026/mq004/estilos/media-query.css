@@ -2,8 +2,24 @@
 
 /* versao para demais medias */
 
-@media print { /* versao impressao*/
+@media print {
+    
+    * {
+        font-family: 'Courier New', Courier, monospace;
+    }
 
+    body {
+        background-image: url(../imagens/back-print.jpg);
+    }
+
+   main {
+        border: 2px solid black;
+   }
+    
+    main h1 {
+        text-shadow: none;
+        color: black;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width:992px) {
