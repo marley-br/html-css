@@ -21,7 +21,7 @@
 
 }
 
-@media screen and (min-width: 993px) and (max-width: 1200px) {
+@media screen and (min-width: 992px) and (max-width: 1200px) {
 
     body {
         background-image: url(../imagens/back-pc.jpg);
@@ -37,12 +37,17 @@
 
 }
 
-@media screen and (min-width: 1201px) { /*versao telas grandes*/
+@media screen and (min-width: 1200px) {
 
     body {
 
         background-image: url(../imagens/back-tv.jpg);
         background-repeat: no-repeat;
+    }
+
+    main {
+
+        width: 700px;
     }
 
     img#phone {display: none;}
