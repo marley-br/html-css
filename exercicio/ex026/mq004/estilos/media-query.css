@@ -6,7 +6,7 @@
 
 }
 
-@media screen and (min-width: 768px) and (max-width:992px) { /*versao tablet*/
+@media screen and (min-width: 768px) and (max-width:992px) {
 
     body {
         background-image: url(../imagens/back-tablet.jpg);
@@ -14,14 +14,14 @@
     }
 
     img#phone {display: none;}
-    img#tablet {display: none;}
+    img#tablet {display: block;}
     img#print {display: none;}
-    img#pc {display: block;}
+    img#pc {display: none;}
     img#tv {display: none;}
 
 }
 
-@media screen and (min-width: 993px) and (max-width: 1200px) {  /*versao DESKTOP*/
+@media screen and (min-width: 993px) and (max-width: 1200px) {
 
     body {
         background-image: url(../imagens/back-pc.jpg);
