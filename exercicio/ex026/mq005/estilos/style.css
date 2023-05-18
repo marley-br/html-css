@@ -19,14 +19,10 @@ span.material-icons {
     padding: 10px;
 }
 
-span.material-icons:hover {
+span#burguer:hover {
     background-color: white;
     color: black;
 
-}
-
-span.material-icons:checked {
-    
 }
 
 header {
