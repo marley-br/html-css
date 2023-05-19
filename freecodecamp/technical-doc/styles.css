@@ -90,6 +90,12 @@ h3 {
   text-decoration: underline;
 }
 
+pre, code {
+
+  margin: 0px;
+  text-indent: 0px;
+}
+
 /* Media query for small screens */
 
 @media only screen and (max-width: 768px) {
