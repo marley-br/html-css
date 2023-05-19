@@ -16,10 +16,25 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  height: 100vh;
- 
-  
+  height: 100vh;  
   position: relative; 
+
+}
+
+main {
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: 450px;
+  height: 690px;   
+  margin: auto;
+  margin-top: 34px; 
+  border: 2px solid black;
+  border-radius: 8px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.596);
+  background-color: rgba(0, 0, 0, 0.26);
+  transform: translate(-50% , -50%);
 
 }
 
@@ -47,22 +62,7 @@ margin-bottom: 10px;
 
 }
 
-main {
 
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: 450px;
-  height: 690px;   
-  margin: auto;
-  margin-top: 34px; 
-  border: 2px solid black;
-  border-radius: 8px;
-  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.596);
-  background-color: rgba(0, 0, 0, 0.26);
-  transform: translate(-50% , -50%);
-
-}
 
 main > form > p {
 
