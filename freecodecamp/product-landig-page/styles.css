@@ -1,14 +1,23 @@
-body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    /*background-image: url(imagens/guitar.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;*/
+@charset "UTF-8";
+
+* {
+
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1em;
+}
+
+body, html {
+
+    width: 100vw;
+    height: 100vh;
+    
   }
   
   header {
-    background-color: #333;
+
+    background-color: black;
     color: #fff;
     position: fixed;
     top: 0;
@@ -19,51 +28,113 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+
   }
   
   #header-img {
+
     height: 50px;
+    background-color: transparent;
+  }
+
+  header > h1 {
+
+    font-size: 1.75em;
   }
   
   nav ul {
+
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
+
   }
   
-  nav li {
+ nav li {
+
     margin: 0 10px;
+
   }
   
-  nav a {
+   nav a {
+
     color: #fff;
     text-decoration: none;
   }
   
   nav a:hover {
+
     text-decoration: underline;
+  }
+
+  header > h1 {
+
+    display: flex;
+    
   }
   
   main {
+
     margin-top: 80px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 20px;
   }
-  
-  section {
-    margin: 50px 0;
-    text-align: center;
+
+  article {
+    margin: 10px;
   }
   
-  h2 {
-    font-size: 2em;
+  section > article > p {
+   
+    text-indent: 10px;
+    line-height: 1.3em;
+    
+  }
+  
+  section#about-us h3 {
+
+    font-size: 1.2em;
     margin-bottom: 20px;
+    background-image: linear-gradient(to left, gray, rgb(19, 19, 19));
+    width: 450px;
+    padding: 10px;
+    color: white;
+   
+  }
+
+  section#our-products > div {
+
+    width: 152px;
+    height: 202px;
+    border: 1px solid black;
+    
+    
+  }
+
+  section#our-products > div > img {
+
+    width: 150px;
+    height: 200px;
+    
+
+  }
+
+  .container {
+
+    overflow: hidden;
+  }
+
+  .box {
+
+    width: 50%; /* Adjust the width as per your requirements */
+    float: left;
+    
   }
   
-  form {
+  /*form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -124,5 +195,5 @@ body {
     section {
     flex-basis: calc(33.33% - 30px);
     }
-    } 
+    }*/ 
   
