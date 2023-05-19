@@ -5,49 +5,67 @@
     <link rel="stylesheet" href="styles.css">
     <title>Survey Form</title>
   </head>
+
   <body>
-    <h1 id="title">Survey Form</h1>
-    <p id="description">Please fill out this survey form.</p>
-    <form id="survey-form">
-      <label for="name" id="name-label">Name:</label>
-      <input type="text" id="name" placeholder="Enter your name" required>
+
+    <header>
+
+      <h1 id="title">HandCrafted Harmonies</h1>
+
+      <p id="description">Survey Form</p>
+
+    </header>
+
+    <main>
+
       
-      <label for="email" id="email-label">Email:</label>
-      <input type="email" id="email" placeholder="Enter your email" required>
+
+      <form id="survey-form">
+
+        <p>Please fill in the form</p>
       
-      <label for="number" id="number-label">Number:</label>
-      <input type="number" id="number" placeholder="Enter a number" min="1" max="10" required>
+        <label for="name" id="name-label">Name:</label>
+        <input type="text" id="name" placeholder="Enter your name" required>
       
-      <label for="dropdown">Select an option:</label>
-      <select id="dropdown">
-        <option value="option1">Option 1</option>
-        <option value="option2">Option 2</option>
-      </select>
+        <label for="email" id="email-label">Email:</label>
+        <input type="email" id="email" placeholder="Enter your email" required>
       
-      <label>Choose an option:</label>
-      <div>
-        <input type="radio" name="option" value="option1" id="option1">
-        <label for="option1">Option 1</label>
-      </div>
-      <div>
-        <input type="radio" name="option" value="option2" id="option2">
-        <label for="option2">Option 2</label>
-      </div>
+        <label for="number" id="number-label">Age: (optional)</label>
+        <input type="number" id="number" placeholder="Enter a number" min="8" max="120" required>
       
-      <label>Choose options:</label>
-      <div>
-        <input type="checkbox" name="option[]" value="option1" id="option1">
-        <label for="option1">Option 1</label>
-      </div>
-      <div>
-        <input type="checkbox" name="option[]" value="option2" id="option2">
-        <label for="option2">Option 2</label>
-      </div>
+        <label for="dropdown">How did you hear about us ?</label>
+        <select id="dropdown">
+          <option value="internet">Internet search</option>
+          <option value="magazine">Magazine</option>
+          <option value="tv">Tv advertisement</option>
+          <option value="other">Other</option>
+        </select>
       
-      <label for="comments">Additional comments:</label>
-      <textarea id="comments"></textarea>
+        <label>Choose an option:</label>
+        <div>
+          <input type="radio" name="option" value="option1" id="option1">
+          <label for="option1">Option 1</label>
+        </div>
+        <div>
+          <input type="radio" name="option" value="option2" id="option2">
+          <label for="option2">Option 2</label>
+        </div>
       
-      <button type="submit" id="submit">Submit</button>
-    </form>
+        <label>Choose options:</label>
+        <div>
+          <input type="checkbox" name="option[]" value="option1" id="option1">
+          <label for="option1">Option 1</label>
+        </div>
+        <div>
+          <input type="checkbox" name="option[]" value="option2" id="option2">
+          <label for="option2">Option 2</label>
+        </div>
+      
+        <label for="comments">Additional comments:</label>
+        <textarea id="comments"></textarea>
+      
+        <button type="submit" id="submit">Submit</button>
+      </form>
+    </main>
   </body>
 </html>
