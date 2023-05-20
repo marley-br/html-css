@@ -8,65 +8,112 @@
 
   <body>
 
-    <header>
+    <div class="container">
 
-      <h1 id="title">HandCrafted Harmonies</h1>
+      <header class="header">
 
-      <p id="description">Survey Form</p>
+        <h1 id="title">HandCrafted Harmonies</h1>
 
-    </header>
+        <p id="description">Survey Form</p>
 
-    <main>
+      </header>
+
+      
       <form id="survey-form">
 
-        <p>Please fill in the form</p>
-      
-        <label for="name" id="name-label">Name:</label>
-        <input type="text" id="name" placeholder="Enter your name" required>
-      
-        <label for="email" id="email-label">Email:</label>
-        <input type="email" id="email" placeholder="Enter your email" required>
-      
-        <label for="number" id="number-label">Age: (optional)</label>
-        <input type="number" id="number" placeholder="Enter a number" min="8" max="120" required>
-      
-        <label for="dropdown">How did you hear about us ?</label>
-        <select id="dropdown">
-          <option value="internet">Internet search</option>
-          <option value="magazine">Magazine</option>
-          <option value="tv">Tv advertisement</option>
-          <option value="other">Other</option>
-        </select>
-      
-        <label>Choose an option:</label>
-        <div>
-          <input type="radio" name="option" value="option1" id="option1">
-          <label for="option1">Option 1</label>
+        <div class="form-field">
+
+          <label for="name" id="name-label">Name:</label>
+          <input type="text" id="name" placeholder="Enter your name" required>
+
         </div>
-        <div>
-          <input type="radio" name="option" value="option2" id="option2">
-          <label for="option2">Option 2</label>
+    
+        <div class="form-field">
+
+          <label for="email" id="email-label">Email:</label>
+          <input type="email" id="email" placeholder="Enter your email" required>
+
         </div>
-      
-        <label>Choose options:</label>
-        <div>
-          <input type="checkbox" name="option[]" value="option1" id="option1">
-          <label for="option1">Option 1</label>
+    
+        <div class="form-field">
+
+          <label for="number" id="number-label">Age: (optional)</label>
+          <input type="number" id="number" placeholder="Enter a number" min="8" max="120" required>
+          
         </div>
-        <div>
-          <input type="checkbox" name="option[]" value="option2" id="option2">
-          <label for="option2">Option 2</label>
+    
+        <div class="form-field">
+
+          <label for="dropdown">How did you hear about us ?</label>
+
+          <select id="dropdown">
+
+            <option value="internet">Internet search</option>
+            <option value="magazine">Magazine</option>
+            <option value="tv">Tv advertisement</option>
+            <option value="other">Other</option>
+
+          </select>
+
         </div>
-      
-        <label for="comments">Additional comments:</label>
-        <textarea id="comments"></textarea>
-      
-        <button type="submit" id="submit">Submit</button>
+    
+    
+        <div class="form-field">
+
+          <p>What is you guitar level ?</p>
+
+          <input type="radio" name="option" value="begginer" id="option1">
+          <label for="option1">Begginer</label>
+
+          <input type="radio" name="option" value="intermediary" id="option2">
+          <label for="option2">Intermediary</label>
+
+          <input type="radio" name="option" value="advanced" id="option3">
+          <label for="option3">Advanced</label>
+
+          <input type="radio" name="option" value="guitar-hero" id="option4">
+          <label for="option4">Guitar Hero</label>
+
+        </div>
+    
+        <div class="form-field">
+
+          <p>What music styles do you like ? <span class="reminder">(check more than one if necessary)</span></p>
+
+          <input type="checkbox" name="usermusic-pref" value="rock" id="option1">
+          <label for="option1">Rock</label>
+
+          <input type="checkbox" name="usermusic-pref]" value="jazz" id="option2">
+          <label for="option2">Jazz</label>
+
+          <input type="checkbox" name="usermusic-pref" value="metal" id="option3">
+          <label for="option3">Metal</label>
+
+          <input type="checkbox" name="usermusic-pref" value="country" id="option4">
+          <label for="option4">Country</label>
+
+          <input type="checkbox" name="usermusic-pref" value="other" id="option5">
+          <label for="option5">Other</label>
+
+        </div>
+    
+        <div class="form-field">
+
+          <label for="comments">Additional comments:</label>
+          <textarea id="comments"></textarea>
+
+        </div>
+    
+        <div class="form-field">
+
+          <button type="submit" id="submit" class="submit-button">Submit</button>
+
+        </div>
+
       </form>
 
-      
+    </div>
 
-      
-    </main>
   </body>
+
 </html>
